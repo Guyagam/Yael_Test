@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew&display=swap');
+
+body {
+  background-color: rgb(243, 234, 222);
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  height: 50vh;
+  padding-top: 50px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.date_input {
+  height: 40px;
+  padding: 15px;
+  transition: ease-in 0.1s;
+  font-size: 40px;
+  color: rgb(245, 55, 55);
+}
+
+.date_input:hover {
+  background-color: rgb(238, 217, 217);
+  transform: scale(1.05);
+}
+
+.hebrew_date {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.events,
+h6 {
+  font-family: 'IBM Pease-in;lex Sans Hebrew', sans-serif;
+
+}
+
+.events {
+  font-size: 15px;
+}
+
+
+h6 {
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.event_list {
+  margin-top: 4px;
+}
+
+.events {
+  list-style: none;
+}
